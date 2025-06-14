@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Mohammed Muzammil Ahmed - Portfolio</title>
+</head>
+
+<body>
+  <div id="sidebar-toggle"><i class="fa-solid fa-bars"></i></div>
+  <aside class="sidebar">
+    <div class="logo">Ahmed.dev</div>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#edu">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </aside>
+  <main class="main-content">
+    <section id="home">
+      <div class="card">
+        <img src="1stpic.png" alt="Profile" />
+        <div class="card-content">
+          <h1>Mohammed Muzammil Ahmed</h1>
+          <h3>Aspiring AI Engineer</h3>
+          <p>
+           Driven by a passion for deep learning, computer vision, and natural language processing, I specialize in building intelligent systems that transform raw data into meaningful,
+            actionable insights. With a strong foundation in AI and a curiosity for its evolving frontiers, I thrive on solving complex problems and pushing the boundaries of what's possible in machine perception and language understanding 
+        </p>
+          <div class="social-media">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="card">
+        <img src="2ndpic.png" alt="About" />
+        <div class="card-content">
+          <h2 class="section-title">About Me</h2>
+          <h3>AI & Machine Learning Engineer</h3>
+          <p>
+           As an aspiring AI engineer with a strong foundation in deep learning, computer vision, and natural language processing, I build intelligent systems that extract insights and solve real-world challenges. Proficient in Python, Java, and C, and experienced
+           with frameworks like TensorFlow, PyTorch, and scikit-learn, I thrive on learning cutting-edge techniques, exploring complex problems, and sharing knowledge with others. My focus is not just on technical innovation, but on creating AI solutions that are impactful, ethical, and future-ready.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="edu">
+      <h2 class="section-title">My Voyage</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Bachelor's in Computer Science</h3>
+          <p>
+            Final year at Muffakham Jah College of Engineering, Hyderabad. Focused on Data Structures,Mathematics, AI, and software engineering. Active in coding competitions and tech events.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Professional Certifications</h3>
+          <p>
+            AWS Certified Solutions Architect, Google Cloud Professional Developer. Trained in React.js, Node.js, MongoDB. Lifelong learner via Coursera, Udemy, FreeCodeCamp.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Industry Experience</h3>
+          <p>
+            3+ years with startups and established firms. Led teams, mentored juniors, delivered high-impact projects. Skilled in agile, version control, and modern workflows.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h2 class="section-title">My Skills</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <h3>Machine Learning</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Deep Learning</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">Computer Vision</span>
+            <span class="skill-tag">Transformers</span>
+            <span class="skill-tag">Reinforcement Learning</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Frameworks & Libraries</h3>
+          <div class="skills-list">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">scikit-learn</span>
+            <span class="skill-tag">OpenCV</span>
+            <span class="skill-tag">Hugging Face</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>AI Tools & Cloud</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Colab</span>
+            <span class="skill-tag">AWS SageMaker</span>
+            <span class="skill-tag">Azure ML</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Data Science</h3>
+          <div class="skills-list">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Data Viz</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <form class="contact-form" action="#">
+        <div class="form-group">
+          <input type="text" id="name" name="name" required placeholder=" " />
+          <label for="name">Full Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" required placeholder=" " />
+          <label for="email">Email Address</label>
+        </div>
+        <div class="form-group">
+          <input type="tel" id="phone" name="phone" placeholder=" " />
+          <label for="phone">Mobile Number</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="subject" name="subject" placeholder=" " />
+          <label for="subject">Subject</label>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" required placeholder=" "></textarea>
+          <label for="message">Your Message</label>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+    <footer class="footer">
+      &copy; 2024 Mohammed Junaid Atif. All Rights Reserved.
+    </footer>
+  </main>
+  <button id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <!-- <script src="main.js"></script>
+  <script>
+    // Sidebar toggle for mobile
+    const sidebar = document.querySelector('.sidebar');
+    const toggleBtn = document.getElementById('sidebar-toggle');
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
+
+    // Scroll-to-top button
+    const scrollBtn = document.getElementById('scrollTopBtn');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        scrollBtn.classList.add('show');
+      } else {
+        scrollBtn.classList.remove('show');
+      }
+    });
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script> -->
+</body>
+
+</html>
